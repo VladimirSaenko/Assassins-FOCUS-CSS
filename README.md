@@ -1,4 +1,4 @@
-# AC-Focus-CSS
+# AC-FOCUS-CSS
 
 ## Фокусировка на CSS | Focus on CSS 
  
