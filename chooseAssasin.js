@@ -4,12 +4,20 @@
 let assassinsSelect = document.getElementById("assassins");
 let background = document.getElementById("bg");
 
-background.src = 'images/altair.png';
+if(window.matchMedia("(min-width: 300px) and (max-width: 800px)").matches) {
+    background.src = 'images/altair2.jpg';
+} else {
+    background.src = 'images/altair.png';
+}
 
 assassinsSelect.addEventListener('input', () => {
     switch (assassinsSelect.value) {
         case 'altair':
-            background.src = 'images/altair.png';
+            if(window.matchMedia("(min-width: 300px) and (max-width: 800px)").matches) {
+                background.src = 'images/altair2.jpg';
+            } else {
+                background.src = 'images/altair.png';
+            }
         break;
         case 'arno':
             background.src = 'images/arno.jpg';
