@@ -38,6 +38,7 @@
 }
 
 .box select {
+    font-family: 'Pacifico', cursive;
     z-index: 100;
     position: absolute;
     bottom: 50px;
@@ -45,6 +46,10 @@
     font-size: 50px;
     width: 215px;
     height: 100px;
+}
+
+.box select option {
+    font-family: 'Pacifico', cursive;
 }
 
 .box img {
